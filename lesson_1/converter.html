@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+var rub = prompt ("Сколько рублей вы готовы потратить на покупку валюты?");
+var usd = "78.7223";
+var eur = "85.9648";
+rub = parseInt(rub);
+usd = parseInt(usd);
+eur = parseInt(eur);
+
+var usdTotal = rub / usd;
+var eurTotal = rub / eur;
+
+//без округления
+alert ("Вы можете приобрести " + usdTotal + " Долларов США или " + eurTotal + " Евро (по курсу ЦБ РФ на 28.03.2020");
+	
+</script>
